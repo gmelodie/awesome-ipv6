@@ -8,9 +8,10 @@ project you agree to abide by its terms.
 
 Ensure your pull request adheres to the following guidelines:
 
-- Make sure you take care of this
-- And this as well
-- And don't forget to check this
+- Check grammar
+- Make sure your resource is IPv6-related
+- Make sure the link is working
+- Include a short and objective description (if need be)
 
 Thank you for your suggestions!
 
