@@ -1,24 +1,30 @@
-# awesome-ipv6
-Curated list of useful links for IPv6 stuff
+# awesome-ipv6 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> A curated list of IPv6 materials
 
 
-### Contents
+## Contents
 
-### Books
+- [Books](#books)
+- [Cheatsheets](#cheatsheets)
+- [Courses](#courses)
+- [Commands](#commands)
+- [RFCs](#rfcs)
+
+## Books
 - [IPv6 Fundamentals: A Straightforward Approach to Understanding IPv6](https://www.amazon.com.br/IPv6-Fundamentals-Straightforward-Approach-Understanding-ebook/dp/B07212JBMT/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=IPv6+Fundamentals%3A+A+Straightforward+Approach+to+Understanding+IPv6&qid=1574187978&sr=8-1)
 
-
-### Cheatsheets
+## Cheatsheets
 - [IPv6 Essentials Cheat Sheet v1.7](http://teachmeipv6.com/IPv6-Essentials-Cheat-Sheet.pdf)
 - [Internet Protocol Version 6 (IPv6) Basics Cheat Sheet by Jens Roesen](https://www.roesen.org/files/ipv6_cheat_sheet.pdf)
 - [IPv6 Addressing Guide (pt-BR)](http://ipv6.br/media/arquivo/ipv6/file/46/enderec-v6.pdf)
 
 
-### Courses
+## Courses
 
-### Commands
+## Commands
 
-### RFCs
+## RFCs
 - [RFC2460: Internet Protocol, Version 6 (IPv6) Specification](https://tools.ietf.org/html/rfc2460)
 - [RFC3315: Dynamic Host Configuration Protocol for IPv6 (DHCPv6)](https://tools.ietf.org/html/rfc3315)
 - [RFC3596: DNS Extensions to Support IP Version 6](https://tools.ietf.org/html/rfc3596)
@@ -29,3 +35,15 @@ Curated list of useful links for IPv6 stuff
 - [RFC6724: Default Address Selection for Internet Protocol Version 6 (IPv6)](https://tools.ietf.org/html/rfc6724)
 - [RFC7381: Enterprise IPv6 Deployment Guidelines](https://tools.ietf.org/html/rfc7381)
 - [RFC8106: IPv6 Router Advertisement Options for DNS Configuration](https://tools.ietf.org/html/rfc8106)
+
+## Contribute
+
+Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+
+
+## License
+
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
+
+To the extent possible under law, Gabriel Cruz has waived all copyright and
+related or neighboring rights to this work.
