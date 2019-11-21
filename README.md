@@ -23,6 +23,13 @@
 ## Courses
 
 ## Commands
+- [`ping6`](https://linux.die.net/man/8/ping6)
+  - `ping6 <node address>` - Ping a node
+  - `ping6 ff02::1%<interface>` - Ping all-nodes multicast address on link
+  
+- [`ip`](https://linux.die.net/man/8/ip)
+  - `ip -6 neigh show` - Show neighbor cache
+  - `ip -6 addr`/`ip -6 a`/ `ip -6 address` - Show IPv6 interfaces addresses
 
 ## RFCs
 - [RFC2460: Internet Protocol, Version 6 (IPv6) Specification](https://tools.ietf.org/html/rfc2460)
