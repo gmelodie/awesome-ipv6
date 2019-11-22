@@ -32,16 +32,17 @@
   - `ip -6 addr`/`ip -6 a`/ `ip -6 address` - Show IPv6 interfaces addresses
 
 ## RFCs
-- [RFC2460: Internet Protocol, Version 6 (IPv6) Specification](https://tools.ietf.org/html/rfc2460)
-- [RFC3315: Dynamic Host Configuration Protocol for IPv6 (DHCPv6)](https://tools.ietf.org/html/rfc3315)
-- [RFC3596: DNS Extensions to Support IP Version 6](https://tools.ietf.org/html/rfc3596)
+- [RFC8504: IPv6 Node Requirements Best Current Practice 220](https://tools.ietf.org/html/rfc8504)
+- [RFC8200: (STD 86) Internet Protocol, Version 6 (IPv6) Specification](https://tools.ietf.org/html/rfc8200)
 - [RFC4291: IP Version 6 Addressing Architecture](https://tools.ietf.org/html/rfc4291)
-- [RFC4443: Internet Control Message Protocol (ICMPv6) for the Internet Protocol Version 6 (IPv6) Specification](https://tools.ietf.org/html/rfc4443)
 - [RFC4861: Neighbor Discovery for IP version 6 (IPv6)](https://tools.ietf.org/html/rfc4861)
 - [RFC4862: IPv6 Stateless Address Autoconfiguration](https://tools.ietf.org/html/rfc4862)
+- [RFC4443: Internet Control Message Protocol (ICMPv6) for the Internet Protocol Version 6 (IPv6) Specification](https://tools.ietf.org/html/rfc4443)
+- [RFC8106: IPv6 Router Advertisement Options for DNS Configuration](https://tools.ietf.org/html/rfc8106)
+- [RFC8415: Dynamic Host Configuration Protocol for IPv6 (DHCPv6)](https://tools.ietf.org/html/rfc8415)
+- [RFC3596: DNS Extensions to Support IP Version 6](https://tools.ietf.org/html/rfc3596)
 - [RFC6724: Default Address Selection for Internet Protocol Version 6 (IPv6)](https://tools.ietf.org/html/rfc6724)
 - [RFC7381: Enterprise IPv6 Deployment Guidelines](https://tools.ietf.org/html/rfc7381)
-- [RFC8106: IPv6 Router Advertisement Options for DNS Configuration](https://tools.ietf.org/html/rfc8106)
 
 ## Contribute
 
