@@ -9,6 +9,7 @@
 - [Cheatsheets](#cheatsheets)
 - [Courses](#courses)
 - [Commands](#commands)
+- [Labs](#labs)
 - [RFCs](#rfcs)
 
 ## Books
@@ -30,6 +31,10 @@
 - [`ip`](https://linux.die.net/man/8/ip)
   - `ip -6 neigh show` - Show neighbor cache
   - `ip -6 addr`/`ip -6 a`/ `ip -6 address` - Show IPv6 interfaces addresses
+
+## Labs
+- [CORE - Open source packet-tracer-like program to create IPv6-enabled environments (pt-BR)](http://ipv6.br/pagina/downloads)
+
 
 ## RFCs
 - [RFC8504: IPv6 Node Requirements Best Current Practice 220](https://tools.ietf.org/html/rfc8504)
