@@ -14,6 +14,7 @@
 
 ## Books
 - [IPv6 Fundamentals: A Straightforward Approach to Understanding IPv6](https://www.amazon.com.br/IPv6-Fundamentals-Straightforward-Approach-Understanding-ebook/dp/B07212JBMT/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=IPv6+Fundamentals%3A+A+Straightforward+Approach+to+Understanding+IPv6&qid=1574187978&sr=8-1)
+- [Linux IPv6 HowTo](https://www.tldp.org/HOWTO/Linux+IPv6-HOWTO/) - All-things manual for IPv6 on Linux
 
 ## Cheatsheets
 - [IPv6 Essentials Cheat Sheet v1.7](http://teachmeipv6.com/IPv6-Essentials-Cheat-Sheet.pdf)
@@ -22,6 +23,8 @@
 
 
 ## Courses
+- [IPv6 Training Recommendations from Internet Society](https://www.internetsociety.org/deploy360/ipv6/training/)
+- [Linux IPv6 Crash Course](https://www.linux.com/tutorials/ipv6-crash-course-linux/)
 
 ## Commands
 - [`ping6`](https://linux.die.net/man/8/ping6)
