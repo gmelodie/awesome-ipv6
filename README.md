@@ -45,6 +45,7 @@
 - [RFC4291: IP Version 6 Addressing Architecture](https://tools.ietf.org/html/rfc4291)
 - [RFC4861: Neighbor Discovery for IP version 6 (IPv6)](https://tools.ietf.org/html/rfc4861)
 - [RFC4862: IPv6 Stateless Address Autoconfiguration](https://tools.ietf.org/html/rfc4862)
+- [RFC4941: Privacy Extensions for Stateless Address Autoconfiguration in IPv6](https://tools.ietf.org/html/rfc4941)
 - [RFC4443: Internet Control Message Protocol (ICMPv6) for the Internet Protocol Version 6 (IPv6) Specification](https://tools.ietf.org/html/rfc4443)
 - [RFC8106: IPv6 Router Advertisement Options for DNS Configuration](https://tools.ietf.org/html/rfc8106)
 - [RFC8415: Dynamic Host Configuration Protocol for IPv6 (DHCPv6)](https://tools.ietf.org/html/rfc8415)
