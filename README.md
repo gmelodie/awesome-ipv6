@@ -26,7 +26,7 @@
 - [IPv6 Training Recommendations from Internet Society](https://www.internetsociety.org/deploy360/ipv6/training/)
 - [Linux IPv6 Crash Course](https://www.linux.com/tutorials/ipv6-crash-course-linux/)
 
-## Commands
+## Tools and Commands
 - [`ping6`](https://linux.die.net/man/8/ping6)
   - `ping6 <node address>` - Ping a node
   - `ping6 ff02::1%<interface>` - Ping all-nodes multicast address on link
