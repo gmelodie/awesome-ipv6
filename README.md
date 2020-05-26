@@ -1,6 +1,6 @@
 # awesome-ipv6 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of IPv6 materials
+A curated list of IPv6 materials and learning resources
 
 
 ## Contents
