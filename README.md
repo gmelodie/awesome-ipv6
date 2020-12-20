@@ -8,7 +8,14 @@ A curated list of IPv6 materials and learning resources
 - [Books](#books)
 - [Cheatsheets](#cheatsheets)
 - [Courses](#courses)
+- [Tools](#tools)
 - [Commands](#commands)
+  - [ping6](#ping6)
+  - [ip](#ip)
+  - [Bluetooth 6LoWPAN](#bluetooth-6lowpan)
+- [Configurations](#configurations)
+  - [Radvd](#radvd)
+  - [IPv6 conf](#ipv6-conf)
 - [Labs](#labs)
 - [RFCs](#rfcs)
 
@@ -21,23 +28,66 @@ A curated list of IPv6 materials and learning resources
 - [Internet Protocol Version 6 (IPv6) Basics Cheat Sheet by Jens Roesen](https://www.roesen.org/files/ipv6_cheat_sheet.pdf)
 - [IPv6 Addressing Guide (pt-BR)](http://ipv6.br/media/arquivo/ipv6/file/46/enderec-v6.pdf)
 
-
 ## Courses
 - [IPv6 Training Recommendations from Internet Society](https://www.internetsociety.org/deploy360/ipv6/training/)
 - [Linux IPv6 Crash Course](https://www.linux.com/tutorials/ipv6-crash-course-linux/)
 
-## Tools and Commands
-- [`ping6`](https://linux.die.net/man/8/ping6)
-  - `ping6 <node address>` - Ping a node
-  - `ping6 ff02::1%<interface>` - Ping all-nodes multicast address on link
+## Tools
+- [Bash ULA Generator](https://github.com/adeverteuil/bash-ula-generator)
+- [Radvd](https://github.com/reubenhwk/radvd)
+
+## Commands
+
+### ping6 
+[Documentation](https://linux.die.net/man/8/ping6)
+- `ping6 <node address>` - Ping a node
+- `ping6 ff02::1%<interface>` - Ping all-nodes multicast address on link
   
-- [`ip`](https://linux.die.net/man/8/ip)
-  - `ip -6 neigh show` - Show neighbor cache
-  - `ip -6 addr`/`ip -6 a`/ `ip -6 address` - Show IPv6 interfaces addresses
+### ip
+[Documentation](https://linux.die.net/man/8/ip)
+- `ip -6 neigh show` - Show neighbor cache
+- `ip -6 addr`/`ip -6 a`/ `ip -6 address` - Show IPv6 interfaces addresses
+- `ip address add 2002:db6::1/64 dev bt0` - Add IPv6 prefix to interface
+- `ip -6 addr flush label "en*"` - Clear all IPv6 addresses on an interface
+
+### Bluetooth 6LoWPAN
+- Enable 6LoWPAN over Bluetooth
+  1. `modprobe bluetooth_6lowpan`
+  2. `echo 35 > /sys/kernel/debug/bluetooth/6lowpan_psm`
+  3. `echo 1 > /sys/kernel/debug/bluetooth/6lowpan_enable`
+- Connect device to host
+  - `echo "connect XX:XX:XX:XX:XX:XX 2" | sudo tee /sys/kernel/debug/bluetooth/6lowpan_control`
+
+## Configurations
+
+### Radvd
+[Documentation](https://www.systutorials.com/docs/linux/man/5-radvd.conf/)
+```
+interface $iface
+{ 
+  AdvSendAdvert on;
+
+  prefix 2b02:6009:aac0:c2a2::/64
+  {
+    AdvOnLink on;
+    AdvAutonomous on;
+    AdvRouterAddr on;
+  };
+};
+```
+
+### IPv6 conf
+IPv6 configuration in `/etc/sysctl.conf`, `all` can be replaced with interface name
+- `net.ipv6.conf.all.accept_ra=2` - Enable or disable SLAAC
+  - 1 -> Enable (disabled, if forwarding=1)
+  - 0 -> Disable
+  - 2 -> Enable (for all)
+- `net.ipv6.conf.all.forwarding=1` - Enable IPv6 forwarding
+- `net.ipv6.conf.all.accept_ra_defrtr=1` - Accept hop limit settings from RA
+- `net.ipv6.conf.all.router_solicitations=1` - Number of Router Solicitations send, before assuming no router available
 
 ## Labs
 - [CORE - Open source packet-tracer-like program to create IPv6-enabled environments (pt-BR)](http://ipv6.br/pagina/downloads)
-
 
 ## RFCs
 - [RFC8504: IPv6 Node Requirements Best Current Practice 220](https://tools.ietf.org/html/rfc8504)
@@ -56,7 +106,6 @@ A curated list of IPv6 materials and learning resources
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
-
 
 ## License
 
