@@ -36,8 +36,6 @@ A curated list of IPv6 materials and learning resources
 - [Bash ULA Generator](https://github.com/adeverteuil/bash-ula-generator)
 - [Radvd](https://github.com/reubenhwk/radvd)
 
-## Commands
-
 ### ping6 
 [Documentation](https://linux.die.net/man/8/ping6)
 - `ping6 <node address>` - Ping a node
