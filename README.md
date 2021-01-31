@@ -14,6 +14,7 @@ A curated list of IPv6 materials and learning resources
 
 ## Books
 - [IPv6 Fundamentals: A Straightforward Approach to Understanding IPv6](https://www.amazon.com.br/IPv6-Fundamentals-Straightforward-Approach-Understanding-ebook/dp/B07212JBMT/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=IPv6+Fundamentals%3A+A+Straightforward+Approach+to+Understanding+IPv6&qid=1574187978&sr=8-1)
+- [IPv6 Security](https://www.amazon.com.br/IPv6-Security-Networking-Technology-English-ebook/dp/B001PBSDKC/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=ipv6+security&qid=1612097420&sr=8-1)
 - [Linux IPv6 HowTo](https://www.tldp.org/HOWTO/Linux+IPv6-HOWTO/) - All-things manual for IPv6 on Linux
 
 ## Cheatsheets
