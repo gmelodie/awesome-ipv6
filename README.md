@@ -85,6 +85,28 @@ IPv6 configuration in `/etc/sysctl.conf`, `all` can be replaced with interface n
 - `net.ipv6.conf.all.accept_ra_defrtr=1` - Accept hop limit settings from RA
 - `net.ipv6.conf.all.router_solicitations=1` - Number of Router Solicitations send, before assuming no router available
 
+### Disable Privacy Extensions
+When disabling privacy extensions, the Interface ID will be generated from the device's MAC address (EUI-64 format). This setting is only effective for managed devices because many operating systems also have built-in MAC address privacy options.
+
+On Windows, open a command prompt as Administrator and paste the following commands:
+```
+netsh interface ipv6 set global randomizeidentifiers=disabled store=active 
+netsh interface ipv6 set global randomizeidentifiers=disabled store=persistent 
+netsh interface ipv6 set privacy state=disabled store=active 
+netsh interface ipv6 set privacy state=disabled store=persistent
+```
+
+On Linux, go to /etc/netplan and find the YAML configuration file there. Add ```ipv6-privacy: off``` and ```ipv6-address-generation: eui64``` to the appropriate interface:
+```
+network:
+  version: 2
+  ethernets:
+    enp0s3:
+      ipv6-privacy: off
+      ipv6-address-generation: eui64
+  renderer: NetworkManager
+```
+
 ## Labs
 - [CORE - Open source packet-tracer-like program to create IPv6-enabled environments (pt-BR)](http://ipv6.br/pagina/downloads)
 
