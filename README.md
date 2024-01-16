@@ -25,7 +25,7 @@ A curated list of IPv6 materials and learning resources
 - [Linux IPv6 HowTo](https://www.tldp.org/HOWTO/Linux+IPv6-HOWTO/) - All-things manual for IPv6 on Linux
 
 ## Cheatsheets
-- [IPv6 Essentials Cheat Sheet v1.7](http://teachmeipv6.com/IPv6-Essentials-Cheat-Sheet.pdf)
+- [IPv6 Essentials Cheat Sheet](http://teachmeipv6.com/IPv6-Essentials-Reference-Sheet.pdf)
 - [Internet Protocol Version 6 (IPv6) Basics Cheat Sheet by Jens Roesen](https://www.roesen.org/files/ipv6_cheat_sheet.pdf)
 - [IPv6 Addressing Guide (pt-BR)](http://ipv6.br/media/arquivo/ipv6/file/46/enderec-v6.pdf)
 
