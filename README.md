@@ -9,6 +9,7 @@ A curated list of IPv6 materials and learning resources
 - [Cheatsheets](#cheatsheets)
 - [Courses](#courses)
 - [Tools](#tools)
+- [Services](#services)
 - [Commands](#commands)
   - [ping6](#ping6)
   - [ip](#ip)
@@ -36,6 +37,10 @@ A curated list of IPv6 materials and learning resources
 ## Tools
 - [Bash ULA Generator](https://github.com/adeverteuil/bash-ula-generator)
 - [Radvd](https://github.com/reubenhwk/radvd)
+
+## Services
+
+- [IPv6.rs](https://ipv6.rs) - An IPv6 tunnel provider that also provides the [Cloud Seeder](https://ipv6.rs/cloudseeder) open source appliance maintenance and deployment suite.
 
 ### ping6 
 [Documentation](https://linux.die.net/man/8/ping6)
