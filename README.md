@@ -17,6 +17,7 @@ A curated list of IPv6 materials and learning resources
 - [Configurations](#configurations)
   - [Radvd](#radvd)
   - [IPv6 conf](#ipv6-conf)
+  - [Disable Privacy Extensions](#disable-privacy-extensions)
 - [Labs](#labs)
 - [RFCs](#rfcs)
 
@@ -42,11 +43,13 @@ A curated list of IPv6 materials and learning resources
 
 - [IPv6.rs](https://ipv6.rs) - An IPv6 tunnel provider that also provides the [Cloud Seeder](https://ipv6.rs/cloudseeder) open source appliance maintenance and deployment suite.
 
-### ping6 
+## Commands
+
+### ping6
 [Documentation](https://linux.die.net/man/8/ping6)
 - `ping6 <node address>` - Ping a node
 - `ping6 ff02::1%<interface>` - Ping all-nodes multicast address on link
-  
+
 ### ip
 [Documentation](https://linux.die.net/man/8/ip)
 - `ip -6 neigh show` - Show neighbor cache
@@ -68,7 +71,7 @@ A curated list of IPv6 materials and learning resources
 [Documentation](https://www.systutorials.com/docs/linux/man/5-radvd.conf/)
 ```
 interface $iface
-{ 
+{
   AdvSendAdvert on;
 
   prefix 2b02:6009:aac0:c2a2::/64
@@ -87,7 +90,7 @@ IPv6 configuration in `/etc/sysctl.conf`, `all` can be replaced with interface n
   - 0 -> Disable
   - 2 -> Enable (for all)
 - `net.ipv6.conf.all.forwarding=1` - Enable IPv6 forwarding
-- `net.ipv6.conf.all.accept_ra_defrtr=1` - Accept hop limit settings from RA
+- `net.ipv6.conf.all.accept_ra_defrtr=1` - Learn the default router from Router Advertisements
 - `net.ipv6.conf.all.router_solicitations=1` - Number of Router Solicitations send, before assuming no router available
 
 ### Disable Privacy Extensions
@@ -95,9 +98,9 @@ When disabling privacy extensions, the Interface ID will be generated from the d
 
 On Windows, open a command prompt as Administrator and paste the following commands:
 ```
-netsh interface ipv6 set global randomizeidentifiers=disabled store=active 
-netsh interface ipv6 set global randomizeidentifiers=disabled store=persistent 
-netsh interface ipv6 set privacy state=disabled store=active 
+netsh interface ipv6 set global randomizeidentifiers=disabled store=active
+netsh interface ipv6 set global randomizeidentifiers=disabled store=persistent
+netsh interface ipv6 set privacy state=disabled store=active
 netsh interface ipv6 set privacy state=disabled store=persistent
 ```
 
@@ -131,7 +134,7 @@ network:
 
 ## Contribute
 
-Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
 
 ## License
 
