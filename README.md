@@ -42,6 +42,7 @@ A curated list of IPv6 materials and learning resources
 ## Services
 
 - [IPv6.rs](https://ipv6.rs) - An IPv6 tunnel provider that also provides the [Cloud Seeder](https://ipv6.rs/cloudseeder) open source appliance maintenance and deployment suite.
+- [Whisper](https://whisper.online) - Assigns a routable IPv6 /128 per workload from its own /32 on AS219419, with reverse DNS, public [RDAP](https://rdap.whisper.online) and a DANE certificate pinned in DNSSEC-signed DNS, so any address can be attributed from the IANA root without an account.
 
 - [17NAS IPv6 Test](https://17nas.com/ipv6-test.php) - Free IPv6 connection test; check IPv4/IPv6 addresses, latency, ISP info and dual-stack status in real time, no signup.
 ## Commands
