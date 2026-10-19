@@ -44,6 +44,8 @@ A curated list of IPv6 materials and learning resources
 - [IPv6.rs](https://ipv6.rs) - An IPv6 tunnel provider that also provides the [Cloud Seeder](https://ipv6.rs/cloudseeder) open source appliance maintenance and deployment suite.
 
 - [17NAS IPv6 Test](https://17nas.com/ipv6-test.php) - Free IPv6 connection test; check IPv4/IPv6 addresses, latency, ISP info and dual-stack status in real time, no signup.
+
+- [IP for AI](https://ipforai.cc/en) - Free dual-stack check that shows your IPv4 and IPv6 exits separately (ASN, location, proxy signals), since AI services may be reached over a different path on each; also shows the exit each AI provider sees.
 ## Commands
 
 ### ping6
