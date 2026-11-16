@@ -38,6 +38,7 @@ A curated list of IPv6 materials and learning resources
 ## Tools
 - [Bash ULA Generator](https://github.com/adeverteuil/bash-ula-generator)
 - [Radvd](https://github.com/reubenhwk/radvd)
+- [IPv6 Subnet Calculator](https://dailydebian.com/pages/ipv6-subnet-calculator) - Free web tool to expand and compress IPv6 addresses, find the first and last address of a prefix and split a prefix into /64 or other subnets.
 
 ## Services
 
